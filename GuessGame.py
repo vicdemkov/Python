@@ -14,7 +14,7 @@ maximum_num_guess = math.ceil(numpy.log2(range_number))
 for i in range(maximum_num_guess):
     user_guess = int(input("Please provide your "+str(i+1)+" guess:"))
     if user_guess == computer_guess:
-        print("You WIN!!")
+        print("You WON!!")
         quit()
     elif user_guess > computer_guess:
         print("Your guess is too big!")
